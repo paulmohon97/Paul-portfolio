@@ -1,0 +1,79 @@
+body {
+    font-family: 'Rubik Moonrocks', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.color {
+    color: orange;
+}
+
+.flexible_Container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.halfwidth {
+    width: 50%;
+    padding-left: 5%
+}
+
+.halfwidth img {
+    height: 80%;
+}
+
+.linkButton {
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.My-dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.expcolor {
+    color: goldenrod;
+}
+
+.boxshadow {
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 20px 30px gray;
+    padding-left: 20px;
+    border-radius: 20px;
+
+
+}
+
+.Experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#ccna {
+    border-left: 10px solid blue;
+}
+
+#problemsolver {
+    border-left: 10px solid rgb(230, 92, 50);
+}
+
+footer p {
+    text-align: center;
+}
